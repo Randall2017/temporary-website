@@ -322,6 +322,17 @@
 			text-transform: none !important;
 		}
 
+		.select-wrapper:hover {
+			content: "";
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+			box-shadow: 0 12px 24px 0 rgba(0,0,0,0.3);
+		}
+
 		.select-wrapper:before {
 			color: #c8cccf;
 			display: block;
